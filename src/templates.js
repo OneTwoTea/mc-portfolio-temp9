@@ -767,6 +767,7 @@ export function createRenderers(config) {
     </ul>
     <p class="endcard__meta">${esc(f.copyright || "")}<br>${esc(f.madeWith || "")}</p>
     ${f.backToTop ? `<a href="#hero" class="endcard__top">${icon("arrowUp", "endcard__top-icon")} Về đầu chương trình</a>` : ""}
+    <p class="mt-6 text-center text-xs text-dim">© 2026 ProfileStudio.me. Nền tảng xây dựng hồ sơ cá nhân chuyên nghiệp.</p>
   </footer>`;
     },
 
